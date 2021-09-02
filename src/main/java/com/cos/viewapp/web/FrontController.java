@@ -33,12 +33,12 @@ public class FrontController {
 		// src/main/resources/templates (prefix)
 		// .mustache (suffix)
 		
-		String name = "윤성준";
+		String name = "홍길동";
 		model.addAttribute("name", name);
 		
 		List<Board> boards = new ArrayList<>();
 		boards.add(new Board(1, "제목1"));
-		boards.add(new Board(2, "제목2"));
+		boards.add(new Board(2, "제목3"));
 		
 		model.addAttribute("boards", boards);
 		
